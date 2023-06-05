@@ -85,10 +85,16 @@
       height: 100%;
     }
     @media only screen and (max-width: 920px) {
+      body {
+        align-items: start;
+        height: 100%;
+      }
       .container {
+        margin-top: 3em;
         width: 350px;
         grid-template-columns: 1fr;
         grid-template-rows: 300px 1fr;
+        margin-bottom: 3em;
       }
       .left {
         order: 1;
